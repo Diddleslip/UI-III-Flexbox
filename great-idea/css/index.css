@@ -269,11 +269,11 @@ h1 {
 	background: white;
 }
 
-footer {
+.secondfooter {
 	display: flex;
 }
 
-footer div {
+.secondfooter div {
 	max-width: 40%;
 	font-size: 110%;
 }
