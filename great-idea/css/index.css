@@ -50,8 +50,8 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	outline: 1px solid red;
-	outline-offset: -1px;
+	/* outline: 1px solid red;
+	outline-offset: -1px; */
 }
 
 html, body {
@@ -201,7 +201,7 @@ h1 {
 .nav-two{
 	display: flex;
 	justify-content: space-between;
-	width: 80%; 
+	width: 70%; 
 }
 
 .nav-two {
@@ -243,12 +243,54 @@ h1 {
 
 .hugesection{
 	display: flex;
+	justify-content: space-between;
 	flex-wrap: wrap;
-	justify-content: flex-start;
-}
-
-.hugesection div {
-	width: 50%;
 }
 
 
+.hugesection div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 45%;
+	padding: 2%;
+	border: 1px solid black;
+	margin-bottom: 2%;
+	background: lightgray;
+}
+
+.hugesection a {
+	border: 1px solid black;
+	border-radius: 5%;
+	margin-top: 4%;
+	width: 25%;
+	text-align: center;
+	padding: 2%;
+	background: white;
+}
+
+footer {
+	display: flex;
+}
+
+footer div {
+	max-width: 40%;
+	font-size: 110%;
+}
+
+.list {
+	line-height: 200%;
+	list-style-type: square;
+	margin-left: 5%;
+	margin-top: 2%;
+	font-size: 100%;
+}
+
+div .image-three {
+	margin-left: 90.5%;
+}
+
+.copyright-two {
+	text-align: center;
+	margin-top: 7%;
+}
