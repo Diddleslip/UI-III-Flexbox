@@ -73,11 +73,18 @@ h1, h2, h3, h4, h5 {
 	padding: 5%;
 }
 
+.navdiv nav{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	width: 85%;
+}
+
 nav div{
 	color: gray;
 	margin: 0% 5%;
 	width: auto;
-	display: inline-block; 	
+	
 }
 
 .container div nav div:hover {
@@ -90,9 +97,7 @@ nav div{
 
 .logo {
 	margin-left: 90%;
-	margin-top: -2%;
-	display: inline-block;
-}
+	margin-top: -2%;}
 
 .getstartedButton {
 	font-size: 250%;
@@ -112,10 +117,14 @@ nav div{
 	transform: scale(1.1);
 }
 
+.innovation {
+	display: flex;
+	margin: 1%;
+}
+
 h1 {
 	font-size: 800%;
 	text-align: center;
-	display: inline-block;
 	margin-left: 15%; 
 	margin-top: 12.5%;
 	height: 10%;
@@ -135,10 +144,12 @@ h1 {
 	margin-top: -19%;
 }
 
+.firstsection{
+	display: flex;
+	margin: 2% auto;
+}
+
 .firstsection div{
-	width: 49.8%;
-	display: inline-block;
-	margin: 3.5% auto;
 	font-size: 150%;
 }
 
@@ -147,10 +158,13 @@ h1 {
 	height: 100%;
 }
 
+.secondsection {
+	display: flex;
+	margin: 2% auto;
+	justify-content: center;
+}
+
 .secondsection div{
-	width: 33%;
-	display: inline-block;
-	margin: 3.5% auto;
 	font-size: 150%;
 }
 
@@ -162,6 +176,7 @@ h1 {
 }
 
 .contact div{
+	font-size: 120%;
 	margin-top: 1%;
 	line-height: 250%;
 }
@@ -172,5 +187,6 @@ h1 {
 
 .copyright {
 	text-align: center;
+	font-size: 120%
 }
 
