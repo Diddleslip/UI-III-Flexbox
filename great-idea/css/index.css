@@ -251,7 +251,6 @@ h1 {
 .hugesection div{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
 	width: 45%;
 	padding: 2%;
 	border: 1px solid black;
@@ -293,4 +292,87 @@ div .image-three {
 .copyright-two {
 	text-align: center;
 	margin-top: 7%;
+}
+
+/* Code for CONTACT page below  */
+
+.container-three {
+	width: 80%;
+	margin: 0 auto;
+	padding: 5%;
+}
+
+.video-games {
+	max-width: 40%;
+	height: auto; 
+	border-radius: 10%;
+	margin: 10%;
+}
+
+.thirdnav {
+	display: flex;
+	justify-content: space-between;
+	max-width: 100%;
+}
+
+.thirdnav a {
+	margin-top: .7%;
+}
+
+.thisisme {
+	display: flex;
+	justify-content: flex-start;
+	max-width: 100%;
+}
+h1 {
+	line-height: 110%;
+	margin-bottom: -5%;
+	
+}
+
+.guyshot {
+	max-width:20%; 
+	height: auto; 
+	border-radius: 10%;
+	justify-content: flex-end;
+	margin-left: 55%;
+	margin-top: -100%;
+}
+
+.fourthline {
+	display: block;
+    height: 1px;
+	border-top: 1px solid black;
+	margin: 8% auto;
+	margin-bottom: 3.5%;
+}
+
+.finalsection {
+	display: flex;
+	flex-wrap: wrap;
+}
+	
+
+.finalsection div{
+	display: flex;
+	width: 40%;
+	flex-direction: column;
+	margin: 2% auto;
+	margin-right: 10%;
+	border: 1px solid black;
+	background: lightgray;
+	padding: 1.5%;
+}
+
+.lastcopyright {
+	margin-top:7%;
+	text-align: center;
+}
+
+.fifthline {
+	display: block;
+    height: 1px;
+	border-top: 1px solid black;
+	margin: 2% auto;
+	margin-top: -2%;
 }
